@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Poppins&family=Yuji+Hentaigana+Akebono&display=swap');
 
+
 @keyframes opacity {
     from {
         opacity: 50%;
@@ -15,7 +16,6 @@
         transform: translateX(0%);
     }
 }
-
 @keyframes pc-logo {
     from {
         transform: translateX(-100%);
@@ -31,30 +31,6 @@
         opacity: 100%;
     }
 }
-
-@keyframes pc-nav {
-    from {
-        transform: translateY(-200%);
-    }
-
-    40% {
-        opacity: 30%;
-    }
-
-    80% {
-        opacity: 50%;
-    }
-
-    90% {
-        opacity: 90%;
-    }
-
-    to {
-        transform: translateY(0%);
-        opacity: 100%;
-    }
-}
-
 @keyframes mobile-logo {
     from {
         transform: translateY(-100%);
@@ -65,7 +41,6 @@
 
     }
 }
-
 @keyframes recent-projects {
 
 
@@ -74,6 +49,8 @@
 
     }
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -88,12 +65,9 @@
 
 .container {
     box-sizing: border-box;
-    position: sticky;
-    top: 0px;
-    overflow: clip;
+    position: fixed;
+    transform: translateX(180%);
     z-index: 10;
-
-
 }
 
 .logo {
@@ -318,7 +292,7 @@
     text-align: center;
     font-family: cursive, sans-serif;
     font-size: 26px;
-    margin: 4vh;
+    padding: 4vh;
 }
 
 .projects-list {
@@ -365,7 +339,12 @@
     }
 
     .container {
-        overflow: scroll;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        overflow: clip;
+        transform: none;
     }
 
     .logo:hover {
@@ -473,17 +452,22 @@
     }
 
     .projects-list {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
-
+   
+    
     .images {
-        width: 65vw;
+        width: 70vw;
         height: 20vh;
         border: 2px solid black;
         background-color: rgb(174, 174, 247);
         margin: 5px auto;
         border-radius: 10px;
+    }
+    #projects {
+        
+        padding: 2vh;
     }
 
 
