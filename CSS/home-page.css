@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Poppins&family=Yuji+Hentaigana+Akebono&display=swap');
+#contact-me-position{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    top: 40px;
+}
+#contact-me-position a svg{
+    padding: 0px;
+    border-radius: 5px;
+}
+#contact-me-position a svg:hover{
+    background-color: gray;
+    transition: all 200ms ease-in-out;
 
+}
 
 
 @keyframes pc-logo {
@@ -54,24 +68,12 @@
     padding: 0px;
 }
 
-#contact-me-position{
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-}
-
-#contact-me-position a:hover{
-    transform: scale(115%);
-    background-color: white;
-}
 :root {
     --green: #00873E;
 }
 
 .container {
     box-sizing: border-box;
-    position: fixed;
-    transform: translateX(180%);
     z-index: 10;
 }
 
@@ -110,7 +112,6 @@
 .nav ul {
     
     margin-left: -15vw;
-    /* border: 2px solid black; */
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -436,5 +437,19 @@
     .msg {
         bottom: 5px;
         padding: 0px;
+    }
+    #contact-me-position{
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+    }
+    #contact-me-position a svg{
+        padding: 0px;
+        border-radius: 5px;
+    }
+    #contact-me-position a svg:hover{
+        background-color: gray;
+        transition: all 200ms ease-in-out;
+    
     }
 }
