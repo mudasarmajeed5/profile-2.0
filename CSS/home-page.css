@@ -54,7 +54,16 @@
     padding: 0px;
 }
 
+#contact-me-position{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
 
+#contact-me-position a:hover{
+    transform: scale(115%);
+    background-color: white;
+}
 :root {
     --green: #00873E;
 }
@@ -90,8 +99,6 @@
 
 
 .nav {
-    animation: pc-nav 1.3s;
-    padding: 15px;
     box-sizing: border-box;
     min-width: 30vw;
     max-width: 70vw;
@@ -101,7 +108,9 @@
 
 
 .nav ul {
-
+    
+    margin-left: -15vw;
+    /* border: 2px solid black; */
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -110,9 +119,9 @@
 }
 
 .nav ul li a {
+    border-radius: 10px;
     position: relative;
     font-family: 'DM Sans', sans-serif;
-    padding: 5px 10px;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -350,6 +359,7 @@
         display: flex;
         justify-content: space-around;
         padding: 5px;
+        margin-left: 0vw;
     }
 
     .nav ul li a {
