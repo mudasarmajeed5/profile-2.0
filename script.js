@@ -1,4 +1,3 @@
-// Show/hide the button based on scroll position
 window.onscroll = function() {
     scrollFunction();
 };
@@ -13,8 +12,15 @@ function scrollFunction() {
     }
 }
 
-// Scroll to the top when the button is clicked
 function scrollToTop() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
 }
+
+// Animation of loader that appears after the page loads.
+
+var loader = document.getElementById('preloader');
+window.addEventListener("load",function()
+{
+    loader.style.display = "none";
+})
