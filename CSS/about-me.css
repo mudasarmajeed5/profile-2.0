@@ -115,6 +115,7 @@ nav{
 }
 @media only screen and (max-width:800px)
 {
+    
     a{
         padding: 5px 15px;
         border-radius: 15px;
@@ -145,7 +146,7 @@ nav{
         margin-top: 20px;
         list-style-type: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .nav ul li{
         margin: 0px;
@@ -158,10 +159,10 @@ nav{
         grid-column: 1/3;
         font-family: 'Poppins';
         margin-top: 5vh;
-        margin-left: 50vw;
+        margin-left: auto;
         margin-right: auto;
-        width: 40vw;
-        height: 40vw;
+        width: 60vw;
+        height: 60vw;
         border-radius: 100%;
         background-color: gray;
         display: flex;
@@ -177,7 +178,7 @@ nav{
         color: brown;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
         position: relative;
-        top: -70px;
+        top: 0px;
         margin: 0px;
         padding: 0px 15px;
         font-size: 40px;
@@ -186,7 +187,7 @@ nav{
         display: none;
     }
     .content p {
-        margin-top: -60px ;
+        margin-top: 15px ;
         padding: 0px;
         color: rgb(128, 128, 128);
         margin-left: 5%;
@@ -198,8 +199,16 @@ nav{
         width: 100vw;
         display: grid;
         margin: 30px auto;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         
+    }
+    .circle3{
+       grid-row: 2/3;
+       grid-column: 1/3;
+
+
+       
     }
     .circle{
         cursor: pointer;
