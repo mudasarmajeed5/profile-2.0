@@ -19,8 +19,9 @@ function scrollToTop() {
 
 // Animation of loader that appears after the page loads.
 
-var loader = document.getElementById('preloader');
-window.addEventListener("load",function()
-{
-    loader.style.display = "none";
-})
+document.addEventListener("DOMContentLoaded", function() {
+    // Hide the preloader when the content is loaded
+    const preloader = document.querySelector('.preloader');
+    preloader.style.display = 'none';
+  });
+  
