@@ -83,7 +83,7 @@
 
 .logo {
     animation: pc-logo 1s;
-    font-family: 'Yuji Hentaigana Akebono', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 45px;
     padding: 15px 30px;
     color: var(--green);
@@ -100,6 +100,7 @@
     font-weight: bold;
     font-size: 12px;
     font-family: 'Mukta', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
 }
 
 
@@ -318,7 +319,7 @@
         animation: mobile-logo 1s ease-in-out;
         background-color: var(--green);
         text-align: center;
-        font-family: 'Yuji Hentaigana Akebono', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 35px;
         margin-left: 0vw;
         position: relative;
@@ -457,7 +458,6 @@
         border-radius: 5px;
     }
     #contact-me-position a svg:hover{
-        background-color: gray;
         transition: all 200ms ease-in-out;
     
     }

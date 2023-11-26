@@ -23,6 +23,6 @@ function scrollToTop() {
     const preloader = document.getElementById("preloader");
 
     window.addEventListener("load", function () {
-        // preloader.style.display = "none";
+        preloader.style.display = "none";
     });
 });
