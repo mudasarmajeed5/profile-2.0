@@ -25,6 +25,7 @@
     height: 35vh;
     margin: 10px auto;
     border-radius: 10px;
+    
 }
 
 
@@ -63,7 +64,9 @@
     .projects-list {
         display: flex;
         flex-direction: column;
+        gap: 20px 0px;
     }    
+    
     .images {
         min-width: 300px;
         min-height: 150px;
@@ -73,6 +76,7 @@
         background-color: rgb(174, 174, 247);
         margin: 5px auto;
         border-radius: 10px;
+        
     }
     #projects {
         
