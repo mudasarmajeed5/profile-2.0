@@ -10,11 +10,10 @@
     --services-button-hover-blue: rgb(40, 190, 240);
 }
 
-
 #services {
     padding: 30px;
     border-radius: 2%;
-    background-color: rgb(213, 219, 219);
+    
 }
 
 .services-head {
@@ -121,7 +120,7 @@
         margin-top: 10vh;
         padding: 30px;
         border-radius: 0%;
-        background-color: rgb(201, 202, 202);
+        background-color: var(--services-background);
     }
     
     .services-head {

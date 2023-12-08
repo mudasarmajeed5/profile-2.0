@@ -2,7 +2,7 @@
 .second-page {
     height: auto;
     margin-bottom: 70px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
    
 }
 

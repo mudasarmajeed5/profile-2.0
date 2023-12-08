@@ -26,3 +26,7 @@ function scrollToTop() {
         preloader.style.display = "none";
     });
 });
+var dark = document.getElementById("dark-theme");
+dark_theme.onclick = function(){
+    document.body.classList.toggle("d_theme")
+}
