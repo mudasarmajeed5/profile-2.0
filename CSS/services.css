@@ -12,8 +12,8 @@
 
 #services {
     padding: 30px;
-    border-radius: 2%;
-    
+    border-radius: 20px;
+    background-color: var(--services-background);
 }
 
 .services-head {
@@ -48,7 +48,7 @@
 }
 
 #gray {
-    list-style-type: "✔️";
+    list-style-type: "✔️ ";
 }
 
 #gray li {
@@ -153,11 +153,6 @@
     .services-content h2 {
         margin-bottom: 15px;
     }
-    
-    #gray {
-        list-style-type: "✔️";
-    }
-    
     #gray li {
         line-height: 1.5;
         margin-left: 10px;

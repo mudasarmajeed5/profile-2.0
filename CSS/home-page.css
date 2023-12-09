@@ -6,6 +6,7 @@
     --background-color: white;
     --green: #00873E;
     --font-color: black;
+    --services-background:rgb(161, 159, 159);
 }
 
 .d_theme {
@@ -344,13 +345,6 @@ body {
     margin-left: 50px;
 }
 
-.scroll img {
-    width: 150px;
-    position: relative;
-    left: 10px;
-    top: 0px;
-}
-
 .scroll>a>svg {
     transform: rotate(90deg);
     margin-left: 30px;
@@ -478,14 +472,6 @@ body {
         margin-top: -10vh;
         width: 50vw;
     }
-
-    .scroll img {
-        width: 20vw;
-        position: relative;
-        left: 10px;
-        top: -5px;
-    }
-
     .scroll>a>svg {
         padding: 0px;
         width: 8vw;
